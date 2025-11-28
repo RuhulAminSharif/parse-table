@@ -1,0 +1,7 @@
+int x ; float y ; x + y * 3
+S -> D E
+D -> T id ; D | ε
+T -> int | float
+E -> E + T1 | T1
+T1 -> T1 * F | F
+F -> ( E ) | id | num
